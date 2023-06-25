@@ -1,6 +1,6 @@
 ﻿using UnityEngine.Events;
 
-namespace YG
+namespace Common.Helpers
 {
     public interface IYandexGameActionsProvider
     {

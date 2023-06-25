@@ -67,7 +67,7 @@ namespace Common.Managers.Advertising.AdBlocks
         {
             if (!m_Ready)
                 return;
-            YandexGame.FullscceenShowDec();
+            YandexGame.FullscreenShowDec();
             m_Ready = false;
             Cor.Run(Cor.Delay(2f, CommonTicker, () => m_Ready = true));
         }

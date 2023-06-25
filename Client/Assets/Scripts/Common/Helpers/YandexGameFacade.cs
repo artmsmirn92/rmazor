@@ -17,7 +17,7 @@ namespace Common.Helpers
         void     BuyPayments(string     _Id);
         void     ReviewShowDec(bool     _AuthDialog);
         void     RewVideoShowDec(int    _Id);
-        void     FullscceenShowDec();
+        void     FullscreenShowDec();
         void     NewLeaderboardScoresDec(string _Id, int _Score);
     }
     
@@ -53,7 +53,7 @@ namespace Common.Helpers
         
         public void ReviewShowDec(bool  _AuthDialog) => YandexGame.ReviewShow(_AuthDialog);
         public void RewVideoShowDec(int _Id)         => YandexGame.RewVideoShow(_Id);
-        public void FullscceenShowDec()              => YandexGame.FullscreenShow();
+        public void FullscreenShowDec()              => YandexGame.FullscreenShow();
         
         public void NewLeaderboardScoresDec(string _Id, int _Score) => YandexGame.NewLeaderboardScores(_Id, _Score);
 
