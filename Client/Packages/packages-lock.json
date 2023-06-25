@@ -8,7 +8,7 @@
       "hash": "b870d64b5704a764fd03aaccb11f2dbe652b1756"
     },
     "com.mazing.common": {
-      "version": "https://github.com/semi92art/mazing-common.git",
+      "version": "https://github.com/artmsmirn92/mazing-common.git",
       "depth": 0,
       "source": "git",
       "dependencies": {
